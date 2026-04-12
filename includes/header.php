@@ -12,10 +12,10 @@
     <header class="header">
         <nav class="nav container">
             <ul class="menu">
-                <li><a href="/">Главная</a></li>
-                <li><a href="/about.php">О нас</a></li>
-                <li><a href="/services.php">Услуги</a></li>
-                <li><a href="/contacts.php">Контакты</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/">Главная</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/about.php">О нас</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/services.php">Услуги</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/contacts.php">Контакты</a></li>
             </ul>
         </nav>
     </header>
