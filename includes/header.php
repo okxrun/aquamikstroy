@@ -11,6 +11,11 @@
 <body>
     <header class="header">
         <nav class="nav container">
-
+            <ul class="menu">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/about.php">О нас</a></li>
+                <li><a href="/services.php">Услуги</a></li>
+                <li><a href="/contacts.php">Контакты</a></li>
+            </ul>
         </nav>
     </header>
