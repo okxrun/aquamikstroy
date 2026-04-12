@@ -13,9 +13,9 @@
         <nav class="nav container">
             <ul class="menu">
                 <li><a href="/aquamikstroy/aquamikstroy/">Главная</a></li>
-                <li><a href="/aquamikstroy/aquamikstroy/about.php">О нас</a></li>
-                <li><a href="/aquamikstroy/aquamikstroy/services.php">Услуги</a></li>
-                <li><a href="/aquamikstroy/aquamikstroy/contacts.php">Контакты</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/php/about.php">О нас</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/php/services.php">Услуги</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/php/contacts.php">Контакты</a></li>
             </ul>
         </nav>
     </header>
