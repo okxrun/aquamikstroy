@@ -6,16 +6,16 @@
 
     <title>АкваМикСтрой</title>
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <header class="header">
         <nav class="nav container">
             <ul class="menu">
-                <li><a href="/aquamikstroy/aquamikstroy/">Главная</a></li>
-                <li><a href="/aquamikstroy/aquamikstroy/php/about.php">О нас</a></li>
-                <li><a href="/aquamikstroy/aquamikstroy/php/services.php">Услуги</a></li>
-                <li><a href="/aquamikstroy/aquamikstroy/php/contacts.php">Контакты</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/php/index.php" class="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">Главная</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/php/about.php" class="<?= basename($_SERVER['PHP_SELF']) == 'about.php' ? 'active' : '' ?>">О нас</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/php/services.php" class="<?= basename($_SERVER['PHP_SELF']) == 'services.php' ? 'active' : '' ?>">Услуги</a></li>
+                <li><a href="/aquamikstroy/aquamikstroy/php/contacts.php" class="<?= basename($_SERVER['PHP_SELF']) == 'contacts.php' ? 'active' : '' ?>">Контакты</a></li>
             </ul>
         </nav>
     </header>
