@@ -2,7 +2,7 @@
 
 <section class="hero">
     <div class="container">
-        <h1>Название компании</h1>
+        <h1>АкваМикСтрой</h1>
 
         <p>Короткое описание</p>
     </div>
