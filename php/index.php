@@ -7,13 +7,32 @@
         <p>Короткое описание</p>
     </div>
 </section>
-<section class="products">
-    <div class="container">
-        <h2>Продукция</h2>
-        <div class="consult-button">Получить консультацию</div>
-        <a href=""><div>Продукция</div></a>
-        <a href=""><div>Продукция</div></a>
-        <a href=""><div>Продукция</div></a>
+<section class="hero-slider">
+    <div class="slider-left">
+        <div class="slider-menu">
+            <button class="menu-item active" data-index="0">
+                Продукт 1
+            </button>
+            <button class="menu-item active" data-index="1">
+                Продукт 2
+            </button>
+            <button class="menu-item active" data-index="2">
+                Продукт 3
+            </button>
+            <button class="menu-item active" data-index="3">
+                Продукт 4
+            </button>
+            <button class="menu-item active" data-index="4">
+                Продукт 5
+            </button>
+        </div>
+        <div class="slider-controls">
+            <button id="prev">←</button>
+            <button id="next">→</button>
+        </div>
+    </div>
+    <div class="slider-right">
+        <img id="slider-image" src="../assets/img/slide1.jpg" alt="">
     </div>
 </section>
 <section class="about-us">

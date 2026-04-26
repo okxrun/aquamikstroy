@@ -10,6 +10,9 @@
 </head>
 <body>
     <header class="header">
+        <a href="/aquamikstroy/aquamikstroy/php/index.php" class="logo">
+            АкваМикСтрой
+        </a>
         <nav class="nav container">
             <ul class="menu">
                 <li><a href="/aquamikstroy/aquamikstroy/php/index.php" class="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">Главная</a></li>
