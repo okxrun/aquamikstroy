@@ -5,24 +5,25 @@ const prev = document.getElementById('prev');
 const next = document.getElementById('next');
 
 const images = [
-    'assets/img/slide1.jpg',
-    'assets/img/slide2.jpg',
-    'assets/img/slide3.png',
-    'assets/img/slide4.jpg',
-    'assets/img/slide5.jpg'
+    '/aquamikstroy/aquamikstroy/assets/img/slide1.jpg',
+    '/aquamikstroy/aquamikstroy/assets/img/slide2.jpg',
+    '/aquamikstroy/aquamikstroy/assets/img/slide3.png',
+    '/aquamikstroy/aquamikstroy/assets/img/slide4.jpg',
+    '/aquamikstroy/aquamikstroy/assets/img/slide5.jpg'
 ];
 
 let current = 0;
 
 function updateSlider(index) {
     current = index;
-    image.src = image[current];
+    image.src = images[current];
     items.forEach(item => item.classList.remove('active'));
     items[current].classList.add('active');
 }
 
 items.forEach(item => {
     item.addEventListener('click', () => {
+        console.log(item.dataset.index);
         updateSlider(parseInt(item.dataset.index));
     })
 })

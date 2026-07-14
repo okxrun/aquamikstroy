@@ -13,16 +13,16 @@
             <button class="menu-item active" data-index="0">
                 Продукт 1
             </button>
-            <button class="menu-item active" data-index="1">
+            <button class="menu-item" data-index="1">
                 Продукт 2
             </button>
-            <button class="menu-item active" data-index="2">
+            <button class="menu-item" data-index="2">
                 Продукт 3
             </button>
-            <button class="menu-item active" data-index="3">
+            <button class="menu-item" data-index="3">
                 Продукт 4
             </button>
-            <button class="menu-item active" data-index="4">
+            <button class="menu-item" data-index="4">
                 Продукт 5
             </button>
         </div>
