@@ -61,7 +61,6 @@
 
 .container {
     width: 100%;
-    border: 5px solid red;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -241,6 +240,7 @@ p {
 
 .advantages {
     background: #f5f7fa;
+    padding: 20px 0;
 }
 
 .advantage {
@@ -254,4 +254,77 @@ p {
 
 .advantage:hover {
     transform: translateY(-8px);
+}
+
+.mail {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.mail form {
+    max-width: 650px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.mail input {
+    padding: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.mail input:focus {
+    outline: none;
+    border-color: #007aff;
+}
+
+.mail button {
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    background: #007aff;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.mail button:hover {
+    background: #005ec7;
+}
+
+@media (max-width: 900px){
+
+    .hero-slider{
+        flex-direction:column;
+        height:auto;
+    }
+
+    .slider-left,
+    .slider-right{
+        width:100%;
+    }
+
+    .about-wrapper{
+        flex-direction:column;
+    }
+
+    .advantages .container{
+        grid-template-columns:1fr;
+    }
+
+    .menu{
+        gap:20px;
+    }
+
+    h1{
+        font-size:36px;
+    }
+
+    h2{
+        font-size:30px;
+    }
 }
