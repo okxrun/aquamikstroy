@@ -36,8 +36,22 @@
     </div>
 </section>
 <section class="about-us">
-    <h2>О нас</h2>
-    <p>Какая-то информация</p>
+    <div class="conteiner about-wrapper">
+        <div class="about-text">
+            <h2>О нас</h2>
+            <p>
+                Компания АкваМикСтрой занимается поставкой
+                тробопроводной арматуры и инженерного оборудования
+            </p>
+            <p>
+                Работаем с промышленными предприятиями и строительными
+                организациями по всей России
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fic.pics.livejournal.com%2Ftvin270584%2F25495263%2F9484364%2F9484364_original.png&f=1&nofb=1&ipt=b02b210fcf123ffd6295515c1b101e561b3ccc56376f249142095d0d966dcd86" alt="">
+        </div>
+    </div>
 </section>
 <section class="advantages">
     <h2>Преимущества</h2>

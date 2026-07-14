@@ -209,5 +209,49 @@ p {
 }
 
 .about-us {
+    padding: 100px 0;
     display: flex;
+    justify-content: center;
+}
+
+.about-wrapper {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    width: 1800px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.advantages {
+    background: #f5f7fa;
+}
+
+.advantage {
+    padding: 40px 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+    transition: .3s;
+    margin: 5px 0;
+}
+
+.advantage:hover {
+    transform: translateY(-8px);
 }
